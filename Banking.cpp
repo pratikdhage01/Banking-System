@@ -9,14 +9,12 @@ class InsufficientFunds{};
 class Account
 {
 private:
-
  long accountNumber;
  string firstName;
  string lastName;
  float balance;
  static long NextAccountNumber;
 public:
-
  Account(){}
  Account(string fname,string lname,float balance);
  long getAccNo()
